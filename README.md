@@ -18,38 +18,35 @@ Step 5 : Display the appended array in the terminal.
 
 ## Program
 ```
+Developed by: S.Sham Rathan
+Register.no : 212221230093
 
 import java.util.*;
-class ArrayListDemo
+class Main
 {
-public static void main(String[] args)
-{
-ArrayList<String> al = new ArrayList<String>();
-System.out.println("Size of ArrayList: "+al.size());
-//Adding the elements
-al.add("Java");
-al.add("JDBC");
-System.out.println("Elements of first ArrayList: "+al);
-ArrayList<String> al2 = new ArrayList<String>();
-al2.add("EJB");
-al2.add("Struts");
-//Adding the both array
-al2.addAll(al);
-System.out.println("Elements of second ArrayList: "+al2);
-//remove the element
-al2.remove("EJB");
-System.out.println("Elements of ArrayList after deletion: "+al2);
-System.out.println("Size of ArrayList: "+al2.size());
-//Retriving 2nd index element
-System.out.println("The element at 2nd index is: "+al2.get(2));
+    public static void main(String[] args) {
+        ArrayList<String> al = new ArrayList<String>();
+        System.out.println("Size of ArrayList: " + al.size());
+        al.add("Jawa");
+        al.add("KTM");
+        System.out.println("Elements of first ArrayList: " + al);
+        ArrayList<String> al2 = new ArrayList<String>();
+        al2.add("R15");
+        al2.add("RoyalEnfiled");
+        al2.addAll(al);
+        System.out.println("Elements of second ArrayList: " + al2);
+        al2.remove("R15");
+        System.out.println("Elements of ArrayList after deletion: " + al2);
+        System.out.println("Size of ArrayList: " + al2.size());
+        System.out.println("The element at 2nd index is: " + al2.get(2));
+    }
 }
-}
+
 ```
 
 
-## Output
-
-![image](https://github.com/SaiDarshan2003/Experriment-10/assets/94692595/27a66c6f-f6b7-405e-b2d6-ccd91e8621dc)
+## Output:
+![image](https://github.com/ShamRathan/Java-Experiment-10/assets/93587823/d9aef3d4-196f-4745-b65b-30519559277f)
 
 
 ## Result 
